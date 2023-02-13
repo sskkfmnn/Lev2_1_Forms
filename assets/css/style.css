@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+@font-face{
+    font-family: "DidactGothic";
+    src: url("../fonts/DidactGothic-Regular.ttf");
+}
+
+
 header article{
     background-color: aquamarine;
     color: aliceblue;
@@ -23,16 +29,22 @@ main{
 main .your_name{
     width: 97%;
     padding: 1vh 0 1vh 2vh;
+    margin-bottom: 2vh;
+    font-family: "DidactGothic";
 }
 
 main .email{
     width: 97%;
     padding: 1vh 0 1vh 2vh;
+    margin-bottom: 2vh;
+    font-family: "DidactGothic";
 }
 
 main .textarea{
     width: 97%;
     padding: 1vh 0 1vh 2vh;
+    margin-bottom: 2vh;
+    font-family: "DidactGothic";
 }
 
 main .send{
